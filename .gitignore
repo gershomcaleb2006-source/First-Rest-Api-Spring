@@ -1,30 +1,27 @@
-### Java ###
-*.class
-*.log
-*.ctxt
-.mtj.tmp/
-
-### Maven ###
+### Java/Maven specific ###
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+*.log
 
-### IntelliJ IDEA ###
+### IntelliJ IDEA specific ###
 .idea/
 *.iml
 *.iws
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### OS Specific ###
+### Maven Wrapper ###
+.mvn/
+mvnw
+mvnw.cmd
+
+### H2 Database temporary files ###
+*.mv.db
+*.trace.db
+
+### OS specific ###
 .DS_Store
 Thumbs.db
